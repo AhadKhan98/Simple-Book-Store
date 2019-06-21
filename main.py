@@ -17,6 +17,7 @@ import frontend
 import backend
 
 def main():
+    backend.connect()
     frontend.create_ui()
 
 if __name__=="__main__":
